@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Q4 PRACTICE 1</title>
+     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+     <style>
+         
+     </style>
+     <title>Q4 Seatwork 2</title>
+     <body>
+        <center>
+            <form class="form-group"></form>
+            <label id="num1">Enter the first number</label><br>
+               <input id="input1" type="number1" class="form-control" placeholder="Enter here">
+            <label id="num2">Enter the second number</label><br>
+             <input id="input2" type="number" class="form-control" placeholder="Enter here">
+             <button id="button1" class="btn btn-info" onclick="add()">Add both numbers together (+)</button>
+             <button id="button1" class="btn btn-info" onclick="add()">Subtract both numbers together (-)</button>
+             <button id="button1" class="btn btn-info" onclick="add()">Multiply both numbers together (×)</button>
+             <button id="button1" class="btn btn-info" onclick="add()">Divide both numbers together (÷)</button>
+            </form>
+         </center>
+
+    <script type="text/javascript">
+        function add(){
+            var num1 = document.getElementById("input1").value;//assign value for num1
+            var num2 = document.getElementById("input2").value;//assign value for num2
+            var sum = Number(num1) + Number(num2); //formula for sum
+
+            window.alert("The sum of num1 and num2 : " + sum)
+        }       
+        function minus(){
+            var num1 = document.getElementById("input1").value;//assign value for num1
+            var num2 = document.getElementById("input2").value;//assign value for num2
+            var minus = Number(num1) + Number(num2); //formula for minus
+
+            window.alert("The difference of num1 and num2 : " + minus)
+        }       
+        function product(){
+            var num1 = document.getElementById("input1").value;//assign value for num1
+            var num2 = document.getElementById("input2").value;//assign value for num2
+            var product = Number(num1) + Number(num2); //formula for product
+
+            window.alert("The product of num1 and num2 : " + product)
+         }       
+        function quotient(){
+            var num1 = document.getElementById("input1").value;//assign value for num1
+            var num2 = document.getElementById("input2").value;//assign value for num2
+            var quotient = Number(num1) + Number(num2); //formula for quotient
+
+            window.alert("The quotient of num1 and num2 : " + quotient)
+   </script>
+ </body>
+</hthml>
